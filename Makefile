@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -Werror
 
 NAME = libftprintf.a 
 
-C_FILES = ft_putchar.c ft_putstr.c ft_putnbr.c
+C_FILES = ft_printf.c ft_putchar.c ft_putstr.c ft_putnbr.c ft_hexnbr.c ft_address.c
 
 O_FILES = $(C_FILES:.c=.o)
 

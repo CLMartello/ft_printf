@@ -6,24 +6,24 @@
 /*   By: clumertz <clumertz@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 14:20:26 by clumertz          #+#    #+#             */
-/*   Updated: 2025/04/25 18:34:34 by clumertz         ###   ########.fr       */
+/*   Updated: 2025/05/01 20:27:10 by clumertz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int	ft_putstr(char *s)
 {
 	int	i;
 
 	i = 0;
-	while (s[i] != '\0')
-	{
-		write(1, &s[i], 1);
-		i++;
-	}
+	if (!s)
+		return (ft_putstr("(null)"));
+	while (s[i])
+		i += ft_putchar(s[i]);
 	return (i);
 }
+
 /*
 #include <fcntl.h>
 
