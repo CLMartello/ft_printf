@@ -20,5 +20,5 @@ Recriation of printf functional from C library as part of 42 school projects.
 ## Usage
 1. Clone the repository
 2. Uncomment main().
-3. Compile using gcc.
+3. Command "make" to compile.
 4. Test for different strings and data types.
