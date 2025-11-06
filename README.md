@@ -18,7 +18,17 @@ Recriation of printf functional from C library as part of 42 school projects.
 %% - percent
 
 ## Usage
-1. Clone the repository
+1. Clone the repository.
+```bash
+git clone git@github.com:CLMartello/ft_printf.git
+```
 2. Uncomment main().
 3. Command "make" to compile.
-4. Test for different strings and data types.
+```bash
+make
+```
+4. Run executable a.out.
+```bash
+./a.out
+```
+5. Test for different strings and data types.
